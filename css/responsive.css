@@ -32,11 +32,16 @@
         display: block;
     }
     
-    nav#main-nav ul li {
+    nav#nav-grab ul li {
         display: block;
         width: 100%;
         padding: 20px;
         text-align: right;
+    }
+    nav#nav-grab #nav-button{
+        color: #1ac056;
+        font-size: 20px;
+/*        line-height: 60px;*/
     }
     
     #main-header #h-container {

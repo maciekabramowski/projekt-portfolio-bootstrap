@@ -41,7 +41,7 @@ section {
 
 /* Nav Menu */
 
-nav#main-nav {
+nav#nav-grab {
     background-color: #fff;
     position: fixed;
     z-index: 10;
@@ -52,24 +52,24 @@ nav#main-nav .toggle, #drop {
     display: none;
 }
 
-nav#main-nav ul {
+nav#nav-grab ul {
     margin: 0;
     text-align: right;
 }
 
-nav#main-nav ul li {
+nav#nav-grab ul li {
     display: inline-block;
     padding: 25px;
 }
 
-nav#main-nav ul li a{
+nav#nav-grab ul li a{
     text-decoration: none;
     color: #1ac056;
     font-weight: 300;
     text-transform: lowercase;
 }
 
-nav#main-nav ul li a:hover {
+nav#nav-grab ul li a:hover {
     color: #291f1a;
 }
 
@@ -377,8 +377,20 @@ footer p {
 
 
 
+span.icon-bar {
+    background-color: #1ac056;
+}
 
+div.container{
+    padding: 0;
+    margin: 0;
+    float: right;
+}
 
+.navbar-nav>li>a {
+    padding: 0;
+    font-size: 1.5em;
+}
 
 
 

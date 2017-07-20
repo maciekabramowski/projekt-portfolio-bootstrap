@@ -28,6 +28,7 @@
 <body>
    
     <!-- Nav Menu -->
+<!--
     <nav id="main-nav">
        
        <label for="drop" class="toggle">Menu</label>
@@ -40,7 +41,31 @@
             <li class="menu-item"><a href="#contact">kontakt</a></li>
         </ul>
     </nav>
+-->
     <!-- /Nav Menu-->
+    
+    <!-- Nav Menu Bootstrap -->
+    <nav class="navbar navbar-fixed-top" id="nav-grab">
+       <div class="container">
+       <div class="navbar-header">
+       <button type="button" id="nav-button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false"> 
+              Menu
+               </button>
+        
+         </div>
+        <div class="collapse navbar-collapse navbar-right " id="nav-menu">
+         <ul id="nav-id" class="nav navbar-nav text-right">
+                <li><a href="#about-me">o mnie</a></li>
+            <li><a href="#my-skills">umiejętności</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">kontakt</a></li>
+            </ul>
+           
+            </div>
+        </div>
+    </nav>
+    
+    <!-- /Nav Menu Bootstrap -->
     
     <!-- Main Header -->
     <header id="main-header">
@@ -187,6 +212,9 @@
         <p class="copyright">Copyright &copy; Maciek Abramowski</p>
     </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
 </body>
 
 </html>
