@@ -1,15 +1,15 @@
 @media all and (max-width: 1200px) {
     section#portfolio .portfolio-items .portfolio-item {
-        width: 50%;        
+/*        width: 50%;        */
     }
     section#portfolio .portfolio-items .portfolio-item:last-child{
-        width: 100%;
+/*        width: 100%;*/
     }
 }
 
 @media all and (max-width: 768px) {
     section#portfolio .portfolio-items .portfolio-item {
-        width: 100%;        
+/*        width: 100%;        */
     }
     
     nav#main-nav .toggle{
